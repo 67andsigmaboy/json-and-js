@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>today i learn about json</h1>
+        <p id="result"></p>
+        <script>
+            var myObj = {name: "John", age: 30, grade: "67"};
+            var myJSON = JSON.stringify(myObj);  // convert odject to JSON for sendig data
+            var myObj2 = JSON.parse(myJSON); // converts JSON into odject while receiving data
+            document.getElementById("result").innerHTML = myObj2.name;
+        </script>
+    </body>
+</html>
