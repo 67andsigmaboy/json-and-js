@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>i dont that code becase i write that lines befor the miss is show the code</h1>
+        <p id="demo"></p>
+        <script>
+            function myDisplayer(value){
+                document.getElementById("demo").innerHTML = value;
+            }
+            function myculculation(num1,num2,mycallback){
+                let sum=num1+num2;
+                mycallback(sum);
+            }
+            myculculation(5,10,myDisplayer);
+        </script>
+    </body>
+</html>
